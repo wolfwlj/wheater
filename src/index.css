@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  height: 150vh;
+}
+main {
+  padding-bottom: 2rem;
+  width: 100%;
+  max-width: 125rem;
+  height: 100%;
+  margin-inline: auto;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 5px 30px 0 rgb(255, 254, 254);
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.groot {
+  font-size: 30px;
+}
+.center {
+  text-align: center;
+}
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+section {
+  padding: 2rem 0;
+}
+h2 {
+  margin: 0;
+}
+.bold {
+  font-weight: bold;
+}
+.nbold {
+  font-weight: normal;
+  text-align: right;
+}
+#stadNaam {
+  font-size: large;
+}
+.inp {
+  width: 160px;
+  height: 30px;
+  margin: auto;
+  display: block;
+}
+.inp2 {
+  margin: auto;
+  display: block;
+
+  width: 70px;
+  height: 30px;
+}
+
+.main-content {
+  padding-inline: 10%;
+  flex: 1 1 80%;
+}
+
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.portfolio-item {
+  border: white 5px solid;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.portfolio-item > p {
+  padding: 0.6em;
+}
+
+.een {
+  grid-row: 1/5;
+  grid-column: 1/3;
+}
+.twee {
+  grid-row: 1/5;
+  grid-column: 3/5;
+}
+.drie {
+  grid-row: 1/5;
+  grid-column: 5/7;
+}
+.link {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
